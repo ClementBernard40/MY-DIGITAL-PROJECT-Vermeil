@@ -15,3 +15,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "ARCO";
+  src: local("ARCO"),
+   url("./fonts/arco/ARCO.ttf") format("truetype");
+ }
+
+ @font-face {
+  font-family: "JustMeAgainDownHere-Regular";
+  src: local("JustMeAgainDownHere-Regular"),
+   url("./fonts/JMADH/JustMeAgainDownHere-Regular.ttf") format("truetype");
+ }
