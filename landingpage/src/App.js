@@ -5,7 +5,7 @@ import DesktopLandingPage from './component/DesktopLandingPage/DesktopLandingPag
 import './App.css';
 
 function App() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
 
   useEffect(() => {
     const handleResize = () => {

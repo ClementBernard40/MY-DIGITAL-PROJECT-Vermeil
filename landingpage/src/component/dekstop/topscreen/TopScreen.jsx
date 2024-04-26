@@ -14,7 +14,7 @@ function TopScreen() {
           </div>
           <div className='w-[35%] flex justify-center items-center'> 
             <div className=" mt-14 px-10 py-2 rounded-full border-darkgreen bg-orangee hover:bg-darkgreen text-white ml-[7vw] 2xl:ml-[10vw]">
-              <a href="#" className="block text-center text-sm font-bold text-2xl 2xl:text-3xl 3xl:text-4xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Découvrir</a>
+              <a href="#" className=" Rubik block text-center text-sm font-bold text-2xl 2xl:text-3xl 3xl:text-4xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Découvrir</a>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ function TopScreen() {
 
       <div className="relative">
         <img src="/yellow_bg.png" alt="" className="w-full mt-[100px] absolute top-0 left-0" />
-        <div className="absolute top-44 md:w-[80%] 2xl:w-[47%] xl:w-[60%] lg:w-[60%] 3xl:w-[30%] mt-[100px] ARCO text-orangee text-6xl left-1/2 transform -translate-x-1/2 block text-center">
+        <div className="absolute top-44 md:w-[80%] 2xl:w-[47%] xl:w-[60%] lg:w-[70%] 3xl:w-[30%] mt-[100px] ARCO text-orangee text-6xl left-1/2 transform -translate-x-1/2 block text-center">
           Reconnaissez-vous ces situations ?
         </div>
         <img src="/flower.png" alt="fleur" className="absolute top-52 right-16" />

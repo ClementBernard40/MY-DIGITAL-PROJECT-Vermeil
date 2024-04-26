@@ -12,19 +12,19 @@ function Navbar() {
       {/* Liens du milieu */}
       <div className="flex justify-center space-x-4">
         <div className="border rounded-full border-darkgreen py-2 px-4">
-          <a href="#" className="text-sm text-darkgreen font-semibold">A propos</a>
+          <a href="#" className="Rubik text-sm text-darkgreen font-semibold">A propos</a>
         </div>
         <div className="border rounded-full border-darkgreen py-2 px-4">
-          <a href="#" className="text-sm text-darkgreen font-semibold">Pour enfants</a>
+          <a href="#" className="Rubik text-sm text-darkgreen font-semibold">Pour enfants</a>
         </div>
         <div className="border rounded-full border-darkgreen py-2 px-4">
-          <a href="#" className="text-sm text-darkgreen font-semibold">Pour parents</a>
+          <a href="#" className="Rubik text-sm text-darkgreen font-semibold">Pour parents</a>
         </div>
       </div>
 
       {/* Contact */}
       <div className="border rounded-full border-darkgreen bg-darkgreen text-white py-2 mr-100px px-4">
-        <a href="#" className="text-sm font-semibold">Contact</a>
+        <a href="#" className="Rubik text-sm font-semibold">Contact</a>
       </div>
     </nav>
   );

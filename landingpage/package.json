@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@fontsource/just-me-again-down-here": "^5.0.13",
+    "@headlessui/react": "^1.7.19",
+    "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

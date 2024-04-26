@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
-import TopScreen from '../topscreen/TopScreen';
-import SolLudi from '../SolLudi/SolLudi';
-import MidScreen from '../midScreen/MidScreen';
-import Contact from '../contact/Contact';
+import Navbar from '../dekstop/navbar/Navbar';
+import TopScreen from '../dekstop/topscreen/TopScreen';
+import SolLudi from '../dekstop/SolLudi/SolLudi';
+import MidScreen from '../dekstop/midScreen/MidScreen';
+import Contact from '../dekstop/contact/Contact';
 
 function DesktopLandingPage() {
     return (

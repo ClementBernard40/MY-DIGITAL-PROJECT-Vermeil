@@ -51,8 +51,8 @@ function Contact() {
             <label htmlFor="message" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik'] leading-tight">Message:</label>
             <textarea id="message" className="w-96 h-32 rounded-md border border-lime-950" />
           </div>
-          <button type="submit" className="px-12 py-3 rounded-full border-darkgreen bg-darkgreen hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex">
-            <div className="text-yellow-50 text-2xl font-bold font-['Rubik'] leading-normal">Envoyer</div>
+          <button type="submit" className="z-50 px-12 py-3 rounded-full border-darkgreen bg-darkgreen hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex">
+            <div className=" text-yellow-50 text-2xl font-bold font-['Rubik'] leading-normal">Envoyer</div>
           </button>
         </div>
 
@@ -62,7 +62,9 @@ function Contact() {
 
 
       <footer className="relative mt-64">
-        <img src="yellow_contact_shape.png" alt="" className='absolute h-72 -z-50 w-full -top-40 ' />
+      <img src="yellow_texture.png" alt="" className='absolute -z-55 -top-[500px] ' />
+      <img src="yellow_contact_shape.png" alt="" className='absolute h-72 -z-50 w-full -top-40 ' />
+
       <section className=" text-darkgreen self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[22px] box-border max-w-full shrink-0 text-center text-lg text-dark-green font-bold-body-menu bg-yellow">
         <div className=" mb-16 w-[1257.8px] flex flex-row items-start justify-between max-w-full gap-[20px] mq1050:flex-wrap mq1050:justify-center">
           <div className="w-[723.1px] flex flex-row items-start justify-start gap-[139.8px] max-w-full mq750:flex-wrap mq750:gap-[70px] mq450:gap-[35px]">
