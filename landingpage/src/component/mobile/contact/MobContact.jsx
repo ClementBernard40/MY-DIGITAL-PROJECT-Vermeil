@@ -102,7 +102,7 @@ function MobContact() {
 </section>
 
         <div className="flex flex-row items-start justify-start gap-[20px]">
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/chouchef.fr/" target="_blank" rel="noopener noreferrer">
                 <img
                   className="h-[26.7px] w-[25.6px] relative min-h-[27px]"
                   loading="lazy"
@@ -110,20 +110,12 @@ function MobContact() {
                   src="/inst.png"
                 />
               </a>
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/profile.php?id=61558725495292" target="_blank" rel="noopener noreferrer">
                 <img
                   className="h-[27.2px] w-7 relative min-h-[27px]"
                   loading="lazy"
                   alt="Facebook"
                   src="/facebook.png"
-                />
-              </a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                <img
-                  className="h-[27.1px] w-[27.1px] relative min-h-[27px]"
-                  loading="lazy"
-                  alt="LinkedIn"
-                  src="/linkedin.png"
                 />
               </a>
             </div>
