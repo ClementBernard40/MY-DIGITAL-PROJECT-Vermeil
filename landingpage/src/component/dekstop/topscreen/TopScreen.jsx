@@ -33,9 +33,9 @@ function TopScreen() {
             No stress! On est là pour vous aider
           </div>
         </div>
-        <img src="/apple2.png" alt="" className="absolute left-24 w-[20%]" style={{ top: '500px' }} />
+        <img src="/apple2.png" alt="" className="absolute left-48 w-[20%]" style={{ top: '500px' }} />
         <img src="/tomato2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[20%]" style={{ top: '500px' }} />
-        <img src="/bread2.png" alt="" className="absolute right-24 w-[20%]" style={{ top: '500px' }} />
+        <img src="/bread2.png" alt="" className="absolute right-48 w-[20%]" style={{ top: '500px' }} />
 
 
       </div>
