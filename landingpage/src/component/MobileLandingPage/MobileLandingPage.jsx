@@ -10,7 +10,6 @@ import ScrollBlocker from '../mobile/scrollblocker/ScrollBlocker';
 function MobileLandingPage() {
     return (
         <div>
-            <ScrollBlocker />
             <MobNavbar />
             <MobTopScreen />
             <MobSolLudi />
