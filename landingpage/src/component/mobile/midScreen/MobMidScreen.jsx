@@ -3,8 +3,10 @@ import './topscreen.css';
 
 function MobMidScreen() {
   return (
-    <div className='overflow-hidden'>
-    <section id="enfant" className=" mt-24">
+    <div >
+      <div>
+
+      <section id="enfant" className=" mt-24">
     <img src="/cartes.png" alt="cartes" className="w-[80%] ml-auto mr-auto" />
     <div className='mt-10 ml-auto mr-auto w-[80%]'>
         <div className="relative ">
@@ -49,6 +51,8 @@ function MobMidScreen() {
 
       </section>
 
+      </div>
+    
 
     </div>
   );
