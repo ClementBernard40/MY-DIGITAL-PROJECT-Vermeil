@@ -5,13 +5,20 @@ module.exports = {
       screens: {
         'xsm': '320px',
 
-        'wsm': '435px',
+        'wsm': '425px',
+
+        'ysm': '550px',
 
         'sm': '625px',
         // => @media (min-width: 640px) { ... }
+
+        'smxl': '750px',
+
   
         'md': '800px',
         // => @media (min-width: 768px) { ... }
+
+        'mdxl': '880px',
   
         'lg': '1024px',
         // => @media (min-width: 1024px) { ... }
@@ -38,7 +45,7 @@ module.exports = {
     extend: {
       colors: {
       'darkgreen': '#103B00',
-      'white': '#FFFFF3',
+      'white': '#FFFFF5',
       'orangee': '#F3530F',
       'pink': '#FF9EB8',
       'yellow': '#FFE74C'

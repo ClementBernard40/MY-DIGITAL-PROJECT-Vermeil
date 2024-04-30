@@ -2,8 +2,9 @@ import React from 'react';
 import './contact.css';
 
 function MobContact() {
+  
   return (
-    <div>
+    <section id='contact'>
       <div className="static wsm:mt-[400px] xsm:mt-[600px] sm:mt-[400px] md:mt-[400px] text-white"></div>
       <div className="relative ml-auto mr-auto">
         <div className="mt-14 block text-center ARCO text-darkgreen md:text-5xl sm:text-4xl text-3xl relative">
@@ -58,10 +59,10 @@ function MobContact() {
       </div>
 
       <footer className="relative mt-64">
-  <img src="yellow_footer_bg_mob.png" alt="" className='absolute h-72 -z-55 w-full -top-40 ' />
-  <img src="yellow_texture_mob.png" alt="" className='absolute -z-55 xsm:-top-80 wsm:-top-96 '/>
+  <img src="yellow_footer_bg_mob.png" alt="" className='absolute h-72 -z-50 w-full -top-40 ' />
+  <img src="yellow_texture_mob.png" alt="" className='absolute z-10 xsm:-top-80 wsm:-top-96 '/>
   <section className="text-darkgreen self-stretch flex flex-col items-center justify-center py-0 pr-5 pl-[22px] box-border max-w-full shrink-0 text-center text-lg text-dark-green font-bold-body-menu bg-yellow">
-    <div className="w-[1257.8px] mb-16 flex flex-col items-center gap-[20px] mq1050:flex-wrap mq1050:justify-center">
+    <div className=" z-50 mb-16 flex flex-col items-center gap-[20px] mq1050:flex-wrap mq1050:justify-center">
       <div className="w-[191.4px] flex flex-col items-center justify-start gap-[40px] min-w-[191.40000000000143px]">
         <img
           className="relative z-[2]"
@@ -69,7 +70,7 @@ function MobContact() {
           src="/logo2.png"
         />
       </div>
-      <div className="flex flex-col items-center justify-center gap-[40px] text-center text-13xl font-cherry-bomb">
+      <div className="flex flex-col items-center justify-center gap-[40px] text-center text-13xl font-cherry-bomb overflow-hidden">
         <div className="self-stretch flex flex-col items-center justify-start gap-[20px]">
           <h2 className="relative text-inherit uppercase font-normal ARCO font-inherit mq750:text-7xl mq450:text-lgi">
             Miam miam en s'amusant !
@@ -83,24 +84,24 @@ function MobContact() {
   <div className="grid grid-cols-2 gap-5">
     <div>
       <div className="ml-10 relative inline-block">
-        À propos
+        <a href='#'> À propos </a>  
       </div>
       <div className=" ml-10 relative tracking-[-0.04em] leading-[110%] mt-2">
-        Pour enfants
+        <a href='#enfant'>Pour enfants</a> 
       </div>
     </div>
     <div className='mt-2'>
       <div className="relative tracking-[-0.04em] leading-[110%] ">
-        Pour parents
+        <a href='#parent'>Pour parents</a> 
       </div>
       <div className="relative tracking-[-0.04em] leading-[110%] mt-2">
-        Contact
+        <a href='#contact'>Contact</a> 
       </div>
     </div>
   </div>
 </section>
 
-            <div className="flex flex-row items-start justify-start gap-[20px]">
+        <div className="flex flex-row items-start justify-start gap-[20px]">
               <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                 <img
                   className="h-[26.7px] w-[25.6px] relative min-h-[27px]"
@@ -143,7 +144,7 @@ function MobContact() {
 </footer>
 
 
-    </div>
+    </section>
   );
 }
 

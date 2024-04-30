@@ -19,14 +19,14 @@ function SolLudi() {
         </div>
       </div>  
 
-      <div>
+      <section id="enfant">
         <img
           className="w-[100%] mt-40"
           loading="lazy"
           alt=""
           src="/green_texture.png"
         />
-      </div>
+      </section>
     </div>
   );
 }

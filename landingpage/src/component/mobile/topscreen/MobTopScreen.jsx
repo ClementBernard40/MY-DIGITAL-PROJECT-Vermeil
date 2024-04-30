@@ -22,7 +22,7 @@ function MobTopScreen() {
       </div>
 
       <div className="relative">
-        <img src="/yellow_bg_mobile.png" alt="" className="w-full mt-[100px] absolute top-0 left-0 md:h-[430vh] sm:h-[395vh] wsm:h-[320vh]" />
+        <img src="/yellow_bg_mobile.png" alt="" className="w-full mt-[100px] absolute top-0 left-0 md:h-[300vw] sm:h-[315vw] mdxl:h-[265vw] smxl:h-[300vw] wsm:h-[350vw] ysm:h-[300vw]" />
         <div className="absolute top-44 md:w-[70%] xsm:text-4xl mt-[100px] ARCO text-orangee text-5xl left-1/2 transform -translate-x-1/2 block text-center">
           Reconnaissez-vous ces situations ?
         </div>

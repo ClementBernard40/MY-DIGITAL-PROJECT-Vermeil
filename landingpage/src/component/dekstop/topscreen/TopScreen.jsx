@@ -3,7 +3,7 @@ import './topscreen.css';
 
 function TopScreen() {
   return (
-    <div>
+    <div className='mt-[100px]'>
       <div className="flex items-center">
         <div>
           <div className="ARCO text-darkgreen text-6xl 2xl:text-7xl 3xl:text-8xl w-[60%] 3xl:w-[50%] ml-[7vw] 2xl:ml-[10vw]">
@@ -13,12 +13,12 @@ function TopScreen() {
             Aidez vos enfants à aimer manger sainement et en s'amusant ! 
           </div>
           <div className='w-[35%] flex justify-center items-center'> 
-            <div className=" mt-14 px-10 py-2 rounded-full border-darkgreen bg-orangee hover:bg-darkgreen text-white ml-[7vw] 2xl:ml-[10vw]">
+            <button className=" mt-14 px-10 py-2 rounded-full border-darkgreen bg-orangee hover:bg-darkgreen ml-[7vw] text-white 2xl:ml-[10vw]">
               <a href="#" className=" Rubik block text-center text-sm font-bold text-2xl 2xl:text-3xl 3xl:text-4xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Découvrir</a>
-            </div>
+            </button>
           </div>
         </div>
-        <img src="/group33.png" alt="annie" className="w-[50vw] 2xl:w-[40vw] ml-auto" />
+        <img src="/group33.png" alt="annie" className="w-[100%] 2xl:w-[40vw] ml-auto" />
       </div>
 
       <div className="relative">
@@ -33,9 +33,9 @@ function TopScreen() {
             No stress! On est là pour vous aider
           </div>
         </div>
-        <img src="/apple.png" alt="" className="absolute left-16 w-[20%]" style={{ top: '500px' }} />
+        <img src="/apple.png" alt="" className="absolute left-24 w-[20%]" style={{ top: '500px' }} />
         <img src="/tomato.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[20%]" style={{ top: '500px' }} />
-        <img src="/bread.png" alt="" className="absolute right-16 w-[20%]" style={{ top: '500px' }} />
+        <img src="/bread.png" alt="" className="absolute right-24 w-[20%]" style={{ top: '500px' }} />
 
 
       </div>

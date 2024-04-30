@@ -3,7 +3,7 @@ import './contact.css';
 
 function Contact() {
   return (
-    <div>
+    <section id="contact">
       <div className="static 3xl:mt-[570px] 2xl:mt-[450px] xl:mt-[500px] lg:mt-[500px] md:mt-[550px] text-white">.  </div>
       <div className="relative">
   <     div className="ARCO block text-center mt-36 text-darkgreen text-5xl 2xl:text-7xl 3xl:text-8xl xl:text-5xl w-[60%] 3xl:w-[50%] ml-auto mr-auto relative">
@@ -62,11 +62,11 @@ function Contact() {
 
 
       <footer className="relative mt-64">
-      <img src="yellow_texture.png" alt="" className='absolute -z-55 -top-[500px] ' />
-      <img src="yellow_contact_shape.png" alt="" className='absolute h-72 -z-50 w-full -top-40 ' />
+      <img src="yellow_texture.png" alt="" className='absolute -z-50 -top-[500px] ' />
+      <img src="yellow_contact_shape.png" alt="" className='absolute h-72 z-10 w-full -top-40 ' />
 
       <section className=" text-darkgreen self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[22px] box-border max-w-full shrink-0 text-center text-lg text-dark-green font-bold-body-menu bg-yellow">
-        <div className=" mb-16 w-[1257.8px] flex flex-row items-start justify-between max-w-full gap-[20px] mq1050:flex-wrap mq1050:justify-center">
+        <div className=" z-50 mb-16 w-[1257.8px] flex flex-row items-start justify-between max-w-full gap-[20px] mq1050:flex-wrap mq1050:justify-center">
           <div className="w-[723.1px] flex flex-row items-start justify-start gap-[139.8px] max-w-full mq750:flex-wrap mq750:gap-[70px] mq450:gap-[35px]">
             <div className="flex-1 flex flex-col items-start justify-start gap-[65.8px] min-w-[255px] max-w-full mq450:gap-[33px]">
               <section className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[7.5px] box-border max-w-full text-left text-5xl text-dark-green font-bold-body-menu">
@@ -77,7 +77,20 @@ function Contact() {
                   <div className="self-stretch flex flex-col items-start justify-start text-lg">
                     <div className="self-stretch flex flex-row items-start justify-start">
                       <div className="relative tracking-[-0.04em] leading-[110%] whitespace-pre-wrap">
-                        À propos Pour enfants Pour parents Contact
+                        <div className="flex">
+                          <a href='#' className="mr-4">
+                            À propos
+                          </a>
+                          <a href='#enfant' className="mr-4">
+                            Pour enfants
+                          </a>
+                          <a href='#parent' className="mr-4">
+                            Pour parents
+                          </a>
+                          <a href='#contact'>
+                            Contact
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -143,7 +156,7 @@ function Contact() {
         </div>
       </section>
     </footer>
-    </div>
+    </section>
       
   );
 }
