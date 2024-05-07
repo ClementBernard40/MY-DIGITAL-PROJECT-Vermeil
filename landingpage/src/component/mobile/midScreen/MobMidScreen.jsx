@@ -15,7 +15,7 @@ function MobMidScreen() {
                 
             </div>
             <div className="mt-8 text-1xl block text-darkgreen md:text-3xl sm:text-2xl" style={{ fontFamily: 'Rubik, sans-serif' }}>
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown. 
+            Les enfants pourront s'amuser avec des cartes colorées représentant différents aliments, les aidant à créer des repas équilibrés et à apprendre l'importance d'une alimentation variée et saine. 
             </div>
             <div className='w-[35%] flex items-center'> 
                 <div className=" mt-4 px-10 py-2 rounded-full bg-pink hover:bg-darkgreen text-white ">
