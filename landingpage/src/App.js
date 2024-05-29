@@ -19,18 +19,10 @@ function App() {
     };
   }, []);
 
-  const redirectToMobile = () => {
-    return <Navigate to="/mobile" />;
-  };
-
-  const redirectToDesktop = () => {
-    return <Navigate to="/desktop" />;
-  };
-
   return (
     <Router>
       <Routes>
-        <Route path="/" element={isMobile ? redirectToMobile() : redirectToDesktop()} />
+        <Route path="/" element={<DesktopLandingPage />} />
         <Route path="/mobile" element={<MobileLandingPage />} />
         <Route path="/desktop" element={<DesktopLandingPage />} />
       </Routes>

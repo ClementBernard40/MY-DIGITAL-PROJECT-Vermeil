@@ -27,3 +27,9 @@ code {
   src: local("JustMeAgainDownHere-Regular"),
    url("./fonts/JMADH/JustMeAgainDownHere-Regular.ttf") format("truetype");
  }
+
+ @font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"),
+  url("./fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}

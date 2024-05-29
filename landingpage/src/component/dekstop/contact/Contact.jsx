@@ -22,7 +22,7 @@ function Contact() {
             </div>
             <div className="justify-start items-start gap-5 flex">
               <div className="flex-col justify-start items-start gap-1.5 inline-flex">
-                <div className="text-lime-950 text-lg font-normal font-['Rubik'] leading-tight">Lundi/Vendredi 9:00-20:00<br/>Samedi 10:00-16:00</div>
+                <div className="text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight">Lundi/Vendredi 9:00-20:00<br/>Samedi 10:00-16:00</div>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ function Contact() {
               <img src="/pin.png" alt="" className="w-3 h-4" />
             </div>
             <div className="flex-col justify-start items-start gap-1.5 inline-flex">
-              <div className="text-lime-950 text-lg font-normal font-['Rubik'] leading-tight">+33 07 45 26 78<br/>chouchef@contact.com<br/>12 Rue des Petits Champs, 75001 Paris, France</div>
+              <div className="text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight">+33 07 45 26 78<br/>chouchef@contact.com<br/>12 Rue des Petits Champs, 75001 Paris, France</div>
             </div>
           </div>
         </div>
@@ -41,15 +41,15 @@ function Contact() {
         <div className="w-96 h-96 flex-col justify-start items-start gap-5 inline-flex">
           <div className="flex-col justify-start items-start gap-2.5 flex">
             <label htmlFor="prenom" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik'] leading-tight">Prénom:</label>
-            <input type="text" id="prenom" className="w-96 h-11 rounded-full border border-lime-950" />
+            <input type="text" id="prenom" className="w-96 h-11 px-2.5 rounded-full border border-lime-950" />
           </div>
           <div className="flex-col justify-start items-start gap-2.5 flex">
-            <label htmlFor="email" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik'] leading-tight">Email:</label>
-            <input type="email" id="email" className="w-96 h-11 rounded-full border border-lime-950" />
+            <label htmlFor="email" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight">Email:</label>
+            <input type="email" id="email" className="w-96 h-11 px-2.5 rounded-full border border-lime-950" />
           </div>
           <div className="flex-col justify-start items-start gap-2.5 flex">
-            <label htmlFor="message" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik'] leading-tight">Message:</label>
-            <textarea id="message" className="w-96 h-32 rounded-md border border-lime-950" />
+            <label htmlFor="message" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight">Message:</label>
+            <textarea id="message" className="w-96 h-32 px-2.5 rounded-md border border-lime-950" />
           </div>
           <button type="submit" className="z-50 px-12 py-3 rounded-full border-darkgreen bg-darkgreen hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex">
             <div className=" text-yellow-50 text-2xl font-bold font-['Rubik'] leading-normal">Envoyer</div>
@@ -138,11 +138,8 @@ function Contact() {
                 Miam miam en s'amusant !
               </h2>
               <div className="w-[226px] relative text-lg tracking-[-0.04em] leading-[20px] font-bold-body-menu text-center inline-block z-[2]">
-                Designed by @comme.kamila
+                mention legale
               </div>
-            </div>
-            <div className="w-[220px] relative text-lg tracking-[-0.04em] leading-[20px] font-bold-body-menu text-center inline-block z-[2]">
-              Projet étudiant de MDS Paris
             </div>
           </div>
         </div>
