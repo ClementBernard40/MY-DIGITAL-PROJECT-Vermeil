@@ -34,9 +34,9 @@ function MobTopScreen() {
           </div>
         </div>
 
-        <img src="/apple2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[75%] top-[500px]" style={{ marginTop: '10vw' }} />
-        <img src="/tomato2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[75%] top-[800px] wsm:mt-[35vw] mt-[15vw] sm:mt-[50vw]" />
-        <img src="/bread2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[75%] top-[1100px] wsm:mt-[55vw] mt-[15vw] sm:mt-[90vw]" />
+        <img src="/apple2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[60%] top-[500px]" style={{ marginTop: '10vw' }} />
+        <img src="/tomato2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[60%] top-[800px] wsm:mt-[35vw] mt-[15vw] sm:mt-[50vw]" />
+        <img src="/bread2.png" alt="" className="absolute left-1/2 transform -translate-x-1/2 w-[60%] top-[1100px] wsm:mt-[55vw] mt-[15vw] sm:mt-[90vw]" />
 
 
       </div>
