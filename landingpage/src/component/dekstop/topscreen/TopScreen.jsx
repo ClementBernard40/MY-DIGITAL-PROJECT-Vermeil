@@ -14,7 +14,7 @@ function TopScreen() {
           </div>
           <div className='w-[35%] flex justify-center items-center'> 
             <button className=" mt-14 px-10 py-2 rounded-full border-darkgreen bg-orangee hover:bg-darkgreen ml-[7vw] text-white 2xl:ml-[10vw]">
-              <a href="#" className=" Rubik block text-center font-bold text-3xl 2xl:text-3xl 3xl:text-4xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Découvrir</a>
+              <a href="#" className=" Rubik block text-center font-bold text-2xl 2xl:text-3xl 3xl:text-4xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Découvrir</a>
             </button>
           </div>
         </div>

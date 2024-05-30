@@ -55,9 +55,11 @@ module.exports = {
       '150px': '150px',
       '547px': '547px',
       '1200px': '1200px',
-    }
+    },
+    backgroundImage: {
+      'flower': "url('/public/flower.png')",
+    },
   },
   },
   plugins: [],
 }
-

@@ -16,7 +16,7 @@ function MidScreen() {
             Les enfants pourront s'amuser avec des cartes colorées représentant différents aliments, les aidant à créer des repas équilibrés et à apprendre l'importance d'une alimentation variée et saine.            </div>
             <div className='w-[35%] flex items-center'>
                 <div className=" mt-4 px-10 py-2 rounded-full bg-pink hover:bg-darkgreen text-white ">
-                    <a href="#" className="block text-center font-bold text-3xl 2xl:text-4xl 3xl:text-6xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Acheter</a>
+                    <a href="#" className="block text-center font-bold text-xl 2xl:text-4xl 3xl:text-6xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Acheter</a>
                 </div>
             </div>
         </div>

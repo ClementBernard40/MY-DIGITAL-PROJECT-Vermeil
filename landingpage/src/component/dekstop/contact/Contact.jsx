@@ -49,9 +49,9 @@ function Contact() {
           </div>
           <div className="flex-col justify-start items-start gap-2.5 flex">
             <label htmlFor="message" className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight">Message:</label>
-            <textarea id="message" className="w-96 h-32 px-2.5 rounded-md border border-lime-950" />
+            <textarea id="message" className="w-96 h-32 px-2.5 border border-lime-950 rounded-[20px] " />
           </div>
-          <button type="submit" className="z-50 px-12 py-3 rounded-full border-darkgreen bg-darkgreen hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex">
+          <button type="submit" className="z-50 px-12 py-3 rounded-full border-darkgreen bg-darkgreen  font-['Rubik-Regular'] hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex">
             <div className=" text-yellow-50 text-2xl font-bold font-['Rubik'] leading-normal">Envoyer</div>
           </button>
         </div>
@@ -72,7 +72,6 @@ function Contact() {
               <section className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[7.5px] box-border max-w-full text-left text-5xl text-dark-green font-bold-body-menu">
                 <div className="flex-1 flex flex-col items-start justify-start gap-[10px] shrink-0 [debug_commit:1de1738] max-w-full z-[2] mq750:flex-1">
                   <b className="relative tracking-[-0.04em] leading-[100%] inline-block min-w-[121px] mq450:text-lgi mq450:leading-[19px]">
-                    Navigation
                   </b>
                   <div className="self-stretch flex flex-col items-start justify-start text-lg">
                     <div className="self-stretch flex flex-row items-start justify-start">
@@ -97,7 +96,7 @@ function Contact() {
                   <div className="flex flex-row items-start justify-start py-0 pr-[102px] pl-0 gap-[20px]">
                     <a href="https://www.instagram.com/chouchef.fr/" target="_blank" rel="noopener noreferrer">
                       <img
-                        className="h-[26.7px] w-[25.6px] relative min-h-[27px]"
+                        className="h-[35px] mt-[5px] min-h-[27px]"
                         loading="lazy"
                         alt="Instagram"
                         src="/inst.png"
@@ -105,7 +104,7 @@ function Contact() {
                     </a>
                     <a href="https://www.facebook.com/profile.php?id=61558725495292" target="_blank" rel="noopener noreferrer">
                       <img
-                        className="h-[27.2px] w-7 relative min-h-[27px]"
+                        className="h-[45.2px] min-h-[27px]"
                         loading="lazy"
                         alt="Facebook"
                         src="/facebook.png"
@@ -116,7 +115,7 @@ function Contact() {
                 </div>
               </section>
               <div className="w-[139px] relative tracking-[-0.04em] leading-[20px] inline-block shrink-0 [debug_commit:1de1738] z-[2]">
-                ©Chouchef, 2024
+                © Chouchef, 2024
               </div>
             </div>
             <div className="h-44 w-[191.4px] flex flex-col items-end justify-start gap-[49.5px] min-w-[191.40000000000143px] mq750:flex-1">
@@ -134,11 +133,11 @@ function Contact() {
           </div>
           <div className="w-[246.6px] flex flex-col items-start justify-start gap-[57px] text-left text-13xl font-cherry-bomb">
             <div className="self-stretch flex flex-col items-start justify-start gap-[15px]">
-              <h2 className="m-0 self-stretch relative text-inherit uppercase font-normal ARCO font-inherit z-[2] mq750:text-7xl mq450:text-lgi">
+              <h2 className="m-0 self-stretch relative text-inherit uppercase font-normal ARCO font-inherit z-[2] mq750:text-7xl text-2xl mq450:text-2xl">
                 Miam miam en s'amusant !
               </h2>
               <div className="w-[226px] relative text-lg tracking-[-0.04em] leading-[20px] font-bold-body-menu text-center inline-block z-[2]">
-                mention legale
+                mentions legales
               </div>
             </div>
           </div>
