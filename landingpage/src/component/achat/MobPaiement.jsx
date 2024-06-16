@@ -49,9 +49,9 @@ function MobPaiement() {
   };
 
   return (
-    <div className="mx-20 bg-[#FFFFF5]">
+    <div className="ysm:mx-20 mx-5 bg-[#FFFFF5]">
       <div className="w-[100%]">
-        <div className="text-2xl text-darkgreen font-bold mt-10 border-b-2 mr-16 border-darkgreen mb-10 pb-6">
+        <div className="text-2xl text-darkgreen font-[Rubik-Regular] font-bold mt-10 border-b-2 ysm:mr-16 border-darkgreen mb-10 pb-6">
           Récapitulatif de la commande
         </div>
         <div>
@@ -65,12 +65,12 @@ function MobPaiement() {
                 </div>
               </div>
             </div>
-            <div className="text-darkgreen font-[Rubik-Regular] text-lg mt-4 ml-auto mr-16">
+            <div className="text-darkgreen font-[Rubik-Regular] text-lg mt-4 ml-auto ysm:mr-16">
               20€
               <div className="opacity-50">Qté : 1</div>
             </div>
           </div>
-          <div className="flex flex-row justify-between mr-16">
+          <div className="flex flex-row justify-between ysm:mr-16 ">
             <div className="text-lg font-[Rubik-Regular] mt-10 text-darkgreen">
               Sous-total
             </div>
@@ -78,7 +78,7 @@ function MobPaiement() {
               20€
             </div>
           </div>
-          <div className="flex flex-row justify-between mr-16 border-b-2 pb-10 border-lightgreen">
+          <div className="flex flex-row justify-between ysm:mr-16 border-b-2 pb-10 border-lightgreen">
             <div className="text-lg font-[Rubik-Regular] mt-10 text-darkgreen">
               Livraison
             </div>
@@ -87,7 +87,7 @@ function MobPaiement() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-between mr-16">
+        <div className="flex flex-row justify-between ysm:mr-16">
           <div className="text-3xl font-[Rubik-Regular] mt-10 text-darkgreen">
             Total
           </div>
@@ -97,11 +97,11 @@ function MobPaiement() {
         </div>
       </div>
       <div className="w-[100%]">
-        <div className="text-2xl text-darkgreen border-b-2 font-bold mt-10 border-2-b-2 mr-16 border-darkgreen mb-10 pb-6">
+        <div className="text-2xl text-darkgreen font-[Rubik-Regular] border-b-2 font-bold mt-10 border-2-b-2 ysm:mr-16 border-darkgreen mb-10 pb-6">
           Livraison
         </div>
         <div>
-          <div className="mr-16">
+          <div className="ysm:mr-16">
             {errors.global && (
               <div className="text-red-500">{errors.global}</div>
             )}
@@ -152,11 +152,11 @@ function MobPaiement() {
             </div>
           </div>
         </div>
-        <div className="text-2xl text-darkgreen font-bold mt-10 border-b-2 mr-16 border-darkgreen mb-10 pb-6">
+        <div className="text-2xl text-darkgreen font-bold mt-10 border-b-2 ysm:mr-16 border-darkgreen mb-10 pb-6">
           Paiement
         </div>
         <div>
-          <div className="mr-16">
+          <div className="ysm:mr-16">
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <label
                 htmlFor="numero"
@@ -217,9 +217,9 @@ function MobPaiement() {
               <button
                 type="submit"
                 onClick={handlePayerClick}
-                className="z-50 mt-10 px-12 py-3 rounded-full text-darkgreen bg-lightgreen hover:bg-darkgreen hover:text-white w-[100%]"
+                className="z-50 mt-10 px-12 py-3 rounded-full text-darkgreen bg-lightgreen hover:bg-darkgreen hover:text-white w-[100%] mb-20"
               >
-                <div className="text-2xl font-bold font-['Rubik'] leading-normal">
+                <div className="text-2xl font-bold font-['Rubik-Regular'] leading-normal">
                   Payer
                 </div>
               </button>
