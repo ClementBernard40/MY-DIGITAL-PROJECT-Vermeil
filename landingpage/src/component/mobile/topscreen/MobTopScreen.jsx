@@ -14,22 +14,20 @@ function MobTopScreen() {
             Aidez vos enfants à aimer manger sainement et en s'amusant ! 
           </div>
           <div className='w-[35%] flex justify-center items-center ml-auto mr-auto'> 
-            <div className="mt-6 px-10 py-2 rounded-full border-darkgreen bg-orangee hover:bg-darkgreen text-white ">
-              <a href="#" className="block text-center text-sm font-bold text-2xl 2xl:text-3xl 3xl:text-4xl " style={{ fontFamily: 'Rubik, sans-serif' }}>Découvrir</a>
-            </div>
+
           </div>
         </div>
       </div>
 
       <div className="relative">
         <img src="/yellow_bg_mobile.png" alt="" className="w-full mt-[100px] absolute top-0 left-0 md:h-[300vw] sm:h-[315vw] mdxl:h-[265vw] smxl:h-[300vw] wsm:h-[350vw] ysm:h-[300vw]" />
-        <div className="absolute top-44 md:w-[70%] xsm:text-4xl mt-[100px] ARCO text-orangee text-5xl left-1/2 transform -translate-x-1/2 block text-center">
+        <div className="absolute top-44 md:w-[70%] xsm:text-4xl mt-[100px] ARCO text-darkgreen text-5xl left-1/2 transform -translate-x-1/2 block text-center">
           Reconnaissez-vous ces situations ?
         </div>
         <img src="/flower.png" alt="fleur" className="absolute top-24 right-6" />
         <img src="/question.png" alt="fleur" className="absolute top-24 left-6" />
         <div className="absolute top-80 w-full mt-[100px] text-center">
-          <div className="JMADH inline-block text-3xl transform -skewY-10" style={{ transform: 'skewY(-5deg)' }}>
+          <div className="JMADH inline-block text-3xl transform -skewY-10 text-darkgreen" style={{ transform: 'skewY(-5deg)' }}>
             No stress! On est là pour vous aider
           </div>
         </div>

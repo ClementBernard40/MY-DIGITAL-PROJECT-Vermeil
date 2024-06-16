@@ -24,7 +24,6 @@ function DesktopLandingPage() {
     } else {
         return (
             <div>
-    
                 <Navbar />
                 <TopScreen />
                 <SolLudi />

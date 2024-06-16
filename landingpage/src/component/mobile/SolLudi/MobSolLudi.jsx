@@ -12,7 +12,7 @@ function MobSolLudi() {
         <div className="relative flex flex-col items-center">
   <img src="/mascot.png" alt="annie" className='' />
   <div className="absolute -bottom-24 text-center">
-    <div className="JMADH inline-block text-3xl w-[75%] block text-center" style={{ transform: 'skewY(-5deg)' }}>
+    <div className="JMADH inline-block text-3xl w-[75%] block text-center text-darkgreen" style={{ transform: 'skewY(-5deg)' }}>
       Chouchou, la mascotte de chouchef
     </div>
   </div>
