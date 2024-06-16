@@ -97,7 +97,7 @@ function Contact() {
               type="submit"
               className="z-50 px-12 py-3 rounded-full border-darkgreen bg-darkgreen hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex"
             >
-              <div className=" text-yellow-50 text-2xl font-bold font-['Rubik'] leading-normal">
+              <div className=" text-yellow-50 text-2xl font-bold font-['Rubik-Regular'] leading-normal">
                 Envoyer
               </div>
             </button>

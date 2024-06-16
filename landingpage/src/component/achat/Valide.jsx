@@ -23,13 +23,13 @@ function Valide() {
           Verifier votre adresse email pour avoir le recapitulatif de votre
           commande et toutes les informations concernant la date de livraison.{" "}
         </div>
-        <div>
+        <div className="mb-20">
           <button
             type="submit"
             onClick={goToHome}
             className="z-50 mt-10 px-16 py-3 rounded-full text-darkgreen  bg-lightgreen hover:bg-darkgreen hover:text-white "
           >
-            <div className=" text-2xl font-bold font-['Rubik'] leading-normal">
+            <div className=" text-2xl font-bold font-['Rubik-Regular'] leading-normal">
               Retour a la page d'acceuil
             </div>
           </button>
