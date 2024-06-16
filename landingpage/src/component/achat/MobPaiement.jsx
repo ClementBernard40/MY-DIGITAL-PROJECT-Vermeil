@@ -88,16 +88,16 @@ function MobPaiement() {
           </div>
         </div>
         <div className="flex flex-row justify-between ysm:mr-16">
-          <div className="text-3xl font-[Rubik-Regular] mt-10 text-darkgreen">
+          <div className="text-3xl font-['Rubik-Regular'] mt-10 text-darkgreen">
             Total
           </div>
-          <div className="text-3xl font-[Rubik-Regular] mt-10 text-darkgreen">
+          <div className="text-3xl font-['Rubik-Regular'] mt-10 text-darkgreen">
             25€
           </div>
         </div>
       </div>
       <div className="w-[100%]">
-        <div className="text-2xl text-darkgreen font-[Rubik-Regular] border-b-2 font-bold mt-10 border-2-b-2 ysm:mr-16 border-darkgreen mb-10 pb-6">
+        <div className="text-2xl text-darkgreen font-['Rubik-Regular'] border-b-2 font-bold mt-10 border-2-b-2 ysm:mr-16 border-darkgreen mb-10 pb-6">
           Livraison
         </div>
         <div>
@@ -108,7 +108,7 @@ function MobPaiement() {
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <label
                 htmlFor="prenom"
-                className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik'] leading-tight"
+                className="w-24 h-6 text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight"
               >
                 Prénom:
               </label>
@@ -160,7 +160,7 @@ function MobPaiement() {
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <label
                 htmlFor="numero"
-                className="w-[50%] h-6 text-lime-950 text-lg font-normal font-['Rubik'] leading-tight"
+                className="w-[50%] h-6 text-lime-950 text-lg font-normal font-['Rubik-Regular'] leading-tight"
               >
                 Numéro de carte:
               </label>
