@@ -26,7 +26,7 @@ function MobContact() {
               </div>
               <div className="justify-start items-start gap-5 flex">
                 <div className="flex-col justify-start items-start gap-1.5 inline-flex">
-                  <div className="text-darkgreen text-lg font-normal font-['Rubik'] leading-tight">
+                  <div className="text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight">
                     Lundi/Vendredi 9:00-20:00
                     <br />
                     Samedi 10:00-16:00
@@ -39,7 +39,7 @@ function MobContact() {
                 <img src="/pin.png" alt="" className="w-3 h-4" />
               </div>
               <div className="flex-col justify-start items-start gap-1.5 inline-flex">
-                <div className="text-darkgreen text-lg font-normal font-['Rubik'] leading-tight">
+                <div className="text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight">
                   +33 07 45 26 78
                   <br />
                   chouchef@contact.com
@@ -56,7 +56,7 @@ function MobContact() {
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <label
                 htmlFor="prenom"
-                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik'] leading-tight"
+                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight"
               >
                 Prénom:
               </label>
@@ -69,7 +69,7 @@ function MobContact() {
             <div className="flex-col justify-start gap-2.5 flex">
               <label
                 htmlFor="email"
-                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik'] leading-tight"
+                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight"
               >
                 Email:
               </label>
@@ -82,7 +82,7 @@ function MobContact() {
             <div className="flex-col justify-start gap-2.5 flex">
               <label
                 htmlFor="message"
-                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik'] leading-tight"
+                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight"
               >
                 Message:
               </label>
@@ -95,7 +95,7 @@ function MobContact() {
               type="submit"
               className="z-30 px-12 py-3 rounded-full border-darkgreen bg-darkgreen hover:bg-orangee text-white justify-center items-center gap-2.5 inline-flex"
             >
-              <div className="text-yellow-50 text-2xl font-bold font-['Rubik'] leading-normal">
+              <div className="text-yellow-50 text-2xl font-bold font-['Rubik-Regular'] leading-normal">
                 Envoyer
               </div>
             </button>
