@@ -10,7 +10,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="static 3xl:mt-[570px] 2xl:mt-[450px] xl:mt-[500px] lg:mt-[500px] md:mt-[550px] text-white">
-        .{" "}
+        .
       </div>
       <div className="relative">
         <div className="ARCO block text-center mt-36 text-darkgreen text-5xl 2xl:text-7xl 3xl:text-8xl xl:text-5xl w-[60%] 3xl:w-[50%] ml-auto mr-auto relative">

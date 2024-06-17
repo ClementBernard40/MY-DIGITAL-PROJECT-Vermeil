@@ -49,7 +49,7 @@ function Paiement() {
   };
 
   return (
-    <div className="mx-20 flex flex-row justify-between bg-[#FFFFF5]">
+    <div className="mx-20 flex flex-row justify-between mt-20 mb-20 bg-[#FFFFF5]">
       <div className="w-[100%]">
         <div className="text-2xl text-darkgreen border-b-2 font-bold mt-10 border-2-b-2 mr-16 border-darkgreen mb-10 pb-6">
           Livraison
