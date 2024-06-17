@@ -30,7 +30,9 @@ function Navbar() {
     >
       {/* Logo */}
       <div className="ml-100px flex items-center">
-        <img src="/logo.png" alt="Logo" className="h-128 mr-2" />
+        <a href={isSubPage ? "/#" : "/#"}>
+          <img src="/logo.png" alt="Logo" className="h-128 mr-2" />{" "}
+        </a>
       </div>
 
       {/* Liens du milieu */}

@@ -19,19 +19,19 @@ function MidScreen() {
         <div className="ml-[10vw] mr-[10vw] 3xl:mr-[7vw] 2xl:mr-[7vw] xl:mr-[7vw] lg:mr-[7vw] lg:mr-[7vw]">
           <div className="relative">
             <div className="ARCO text-darkgreen text-6xl 2xl:text-7xl 3xl:text-8xl 3xl:w-[80%] 2xl:w-[100%] xl:w-[110%] lg:w-[30%]">
-              cartes pour vos{" "}
+              cartes pour vos
               <span className="relative inline-block">
-                enfants{" "}
+                enfants
                 <img
                   src="/line.png"
                   alt=""
                   className="absolute -bottom-3 w-[100%]"
-                />{" "}
+                />
                 <img
                   src="/line.png"
                   alt=""
                   className="absolute -bottom-5 w-[100%]"
-                />{" "}
+                />
               </span>
             </div>
             <div
@@ -73,19 +73,19 @@ function MidScreen() {
         />
         <div className="absolute left-16 top-2/4 w-[50%]">
           <div className="ARCO text-white text-6xl lg:text-6xl 2xl:text-7xl 3xl:text-8xl w-[90%] 3xl:w-[80%] ml-[7vw] 2xl:ml-[10vw]">
-            liste de course pour{" "}
+            liste de course pour
             <span className="relative inline-block">
-              parents{" "}
+              parents
               <img
                 src="/line.png"
                 alt=""
                 className="absolute -bottom-3 w-[100%]"
-              />{" "}
+              />
               <img
                 src="/line.png"
                 alt=""
                 className="absolute -bottom-5 w-[100%]"
-              />{" "}
+              />
             </span>
           </div>
           <div
@@ -110,7 +110,7 @@ function MidScreen() {
           </div>
         </div>
         <img
-          src="/Group38.png"
+          src="/app.png"
           alt=""
           className="absolute right-16 top-[20%] md:top-[40%] w-[35%]"
         />
