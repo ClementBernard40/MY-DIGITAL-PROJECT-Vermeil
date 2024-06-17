@@ -18,19 +18,19 @@ function MobMidScreen() {
           <div className="mt-10 ml-auto mr-auto w-[80%]">
             <div className="relative ">
               <div className="block text-center ARCO text-darkgreen md:text-5xl sm:text-4xl text-4xl">
-                cartes pour vos{" "}
+                cartes pour vos
                 <span className="relative inline-block">
-                  enfants{" "}
+                  enfants
                   <img
                     src="/line.png"
                     alt=""
                     className="absolute -bottom-3 w-[100%]"
-                  />{" "}
+                  />
                   <img
                     src="/line.png"
                     alt=""
                     className="absolute -bottom-5 w-[100%]"
-                  />{" "}
+                  />
                 </span>
               </div>
               <div
@@ -72,19 +72,19 @@ function MobMidScreen() {
           />
           <div className="absolute left-8 top-3/4 w-[80%]">
             <div className="ARCO text-white md:text-5xl sm:text-4xl text-4xl  ">
-              liste de course pour{" "}
+              liste de course pour
               <span className="relative inline-block">
-                parents{" "}
+                parents
                 <img
                   src="/line.png"
                   alt=""
                   className="absolute -bottom-3 w-[100%]"
-                />{" "}
+                />
                 <img
                   src="/line.png"
                   alt=""
                   className="absolute -bottom-5 w-[100%]"
-                />{" "}
+                />
               </span>
             </div>
             <div
