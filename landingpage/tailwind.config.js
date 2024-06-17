@@ -48,6 +48,7 @@ module.exports = {
       'white': '#FFFFF5',
       'orangee': '#F3530F',
       'pink': '#FF9EB8',
+      'lightgreen': '#ADC319',
       'yellow': '#FFE74C'
     },
     spacing: {
