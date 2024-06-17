@@ -30,7 +30,9 @@ function MobNavbar() {
       }`}
     >
       <div className="ml-4 flex items-center">
-        <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
+        <a href={isSubPage ? "/#" : "/#"}>
+          <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
+        </a>
       </div>
 
       {/* Menu déroulant */}

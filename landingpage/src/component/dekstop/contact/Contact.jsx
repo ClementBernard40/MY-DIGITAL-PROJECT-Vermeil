@@ -131,7 +131,7 @@ function Contact() {
                         <div className="relative tracking-[-0.04em] leading-[110%] whitespace-pre-wrap">
                           <div className="flex">
                             <a href="#" className="mr-4">
-                              À propos
+                              Accueil
                             </a>
                             <a href="#enfant" className="mr-4">
                               Pour enfants

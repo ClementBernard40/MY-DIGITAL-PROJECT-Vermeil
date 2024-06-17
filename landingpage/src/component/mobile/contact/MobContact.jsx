@@ -132,7 +132,7 @@ function MobContact() {
                   <div className="grid grid-cols-2 gap-5">
                     <div>
                       <div className="ml-10 relative inline-block">
-                        <a href="#"> À propos </a>
+                        <a href="#"> Accueil </a>
                       </div>
                       <div className=" ml-10 relative tracking-[-0.04em] leading-[110%] mt-2">
                         <a href="#enfant">Pour enfants</a>
