@@ -1,12 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import { useNavigate } from "react-router-dom";
+import axiosInstance from "./../../../axiosInstance";
 
 function Contact() {
   const navigate = useNavigate();
   const handlemlClick = () => {
     navigate("/mentionsLegales");
   };
+
+  const [prenom, setPrenom] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const mailData = {
+      prenom: prenom,
+      email: email,
+      message: message,
+    };
+
+    try {
+      const response = await axiosInstance.post("/mail", mailData);
+
+      if (response.status === 200) {
+        alert("Votre message a été envoyé avec succès.");
+        setPrenom("");
+        setEmail("");
+        setMessage("");
+      } else {
+        alert("Une erreur s'est produite lors de l'envoi du message. hghghjg");
+      }
+    } catch (error) {
+      alert(
+        "Une erreur s'est produite lors de l'envoi du message. fggjdgs fghjdsghj fgdshjgf hjgsdhjf gdsh"
+      );
+    }
+  };
+
   return (
     <section id="contact">
       <div className="static 3xl:mt-[570px] 2xl:mt-[450px] xl:mt-[500px] lg:mt-[500px] md:mt-[550px] text-white">
@@ -19,7 +51,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="flex mt-32 ">
+      <div className="flex mt-32">
         <div className="w-1/2 flex justify-center">
           <div className="w-96 h-32 flex-col justify-start items-start gap-9 inline-flex">
             <div className="justify-start items-start gap-5 inline-flex">
@@ -54,7 +86,10 @@ function Contact() {
         </div>
 
         <div className="w-1/2">
-          <div className="w-96 h-96 flex-col justify-start items-start gap-5 inline-flex">
+          <form
+            onSubmit={handleSubmit}
+            className="w-96 h-96 flex-col justify-start items-start gap-5 inline-flex"
+          >
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <label
                 htmlFor="prenom"
@@ -65,6 +100,8 @@ function Contact() {
               <input
                 type="text"
                 id="prenom"
+                value={prenom}
+                onChange={(e) => setPrenom(e.target.value)}
                 className="w-96 h-11 px-2.5 rounded-full border border-lime-950"
               />
             </div>
@@ -78,6 +115,8 @@ function Contact() {
               <input
                 type="email"
                 id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="w-96 h-11 px-2.5 rounded-full border border-lime-950"
               />
             </div>
@@ -90,6 +129,8 @@ function Contact() {
               </label>
               <textarea
                 id="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className="w-96 h-32 px-2.5 rounded-md border border-lime-950"
               />
             </div>
@@ -101,7 +142,7 @@ function Contact() {
                 Envoyer
               </div>
             </button>
-          </div>
+          </form>
         </div>
       </div>
 

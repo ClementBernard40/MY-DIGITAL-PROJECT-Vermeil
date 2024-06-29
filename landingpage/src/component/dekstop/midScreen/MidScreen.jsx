@@ -73,7 +73,7 @@ function MidScreen() {
         />
         <div className="absolute left-16 top-2/4 w-[50%]">
           <div className="ARCO text-white text-6xl lg:text-6xl 2xl:text-7xl 3xl:text-8xl w-[90%] 3xl:w-[80%] ml-[7vw] 2xl:ml-[10vw]">
-            liste de course pour
+            liste de course pour&nbsp;
             <span className="relative inline-block">
               parents
               <img
