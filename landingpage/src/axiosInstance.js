@@ -1,7 +1,7 @@
 import axios from "axios";
 // Créez une instance Axios avec une configuration de base
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://chouchef-back-db3a6506fb5c.herokuapp.com/users/allUsers",
 });
 
 export default axiosInstance;
