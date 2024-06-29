@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import { useNavigate } from "react-router-dom";
+import axiosInstance from "./../../../axiosInstance";
 
 function MobContact() {
   const navigate = useNavigate();
   const handlemlClick = () => {
     navigate("/mentionsLegales");
+  };
+
+  const [prenom, setPrenom] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const mailData = {
+      prenom: prenom,
+      email: email,
+      message: message,
+    };
+
+    try {
+      const response = await axiosInstance.post("/mail", mailData);
+
+      if (response.status === 200) {
+        alert("Votre message a été envoyé avec succès.");
+        setPrenom("");
+        setEmail("");
+        setMessage("");
+      } else {
+        alert("Une erreur s'est produite lors de l'envoi du message. hghghjg");
+      }
+    } catch (error) {
+      alert(
+        "Une erreur s'est produite lors de l'envoi du message. fggjdgs fghjdsghj fgdshjgf hjgsdhjf gdsh"
+      );
+    }
   };
   return (
     <section id="contact">
@@ -52,7 +83,10 @@ function MobContact() {
         </div>
 
         <div className="w-[90%] md:w-1/2 mt-20 flex ">
-          <div className="h-96 flex-col justify-start items-start gap-5 inline-flex">
+          <form
+            onSubmit={handleSubmit}
+            className="h-96 flex-col justify-start items-start gap-5 inline-flex"
+          >
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <label
                 htmlFor="prenom"
@@ -63,7 +97,9 @@ function MobContact() {
               <input
                 type="text"
                 id="prenom"
-                className=" md:w-96 xsm:w-72 wsm:w-96 sm:w-[500px] h-11 rounded-full border border-darkgreen"
+                value={prenom}
+                onChange={(e) => setPrenom(e.target.value)}
+                className=" p-4 md:w-96 xsm:w-72 wsm:w-96 sm:w-[500px] h-11 rounded-full border border-darkgreen"
               />
             </div>
             <div className="flex-col justify-start gap-2.5 flex">
@@ -76,18 +112,22 @@ function MobContact() {
               <input
                 type="email"
                 id="email"
-                className="md:w-96 xsm:w-72 wsm:w-96 sm:w-[500px] h-11 rounded-full border border-darkgreen"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="p-4 md:w-96 xsm:w-72 wsm:w-96 sm:w-[500px] h-11 rounded-full border border-darkgreen"
               />
             </div>
             <div className="flex-col justify-start gap-2.5 flex">
               <label
                 htmlFor="message"
-                className="md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight"
+                className="p-4 md:w-24 h-6 text-darkgreen text-lg font-normal font-['Rubik-Regular'] leading-tight"
               >
                 Message:
               </label>
               <textarea
                 id="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 className="z-30 md:w-96 xsm:w-72 wsm:w-96 sm:w-[500px] h-32 rounded-[20px] border border-darkgreen"
               />
             </div>
@@ -99,7 +139,7 @@ function MobContact() {
                 Envoyer
               </div>
             </button>
-          </div>
+          </form>
         </div>
       </div>
 
