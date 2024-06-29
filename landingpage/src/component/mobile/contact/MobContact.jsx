@@ -30,12 +30,10 @@ function MobContact() {
         setEmail("");
         setMessage("");
       } else {
-        alert("Une erreur s'est produite lors de l'envoi du message. hghghjg");
+        alert("Une erreur s'est produite lors de l'envoi du message.");
       }
     } catch (error) {
-      alert(
-        "Une erreur s'est produite lors de l'envoi du message. fggjdgs fghjdsghj fgdshjgf hjgsdhjf gdsh"
-      );
+      alert("Une erreur s'est produite lors de l'envoi du message.");
     }
   };
   return (
